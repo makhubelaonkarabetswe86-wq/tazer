@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tazer Bouy</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    color:white;
+}
+
+/* NAVBAR */
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:#00000090;
+}
+
+.logo{
+
+    font-size:32px;
+    font-weight:bold;
+    color:#8b5cf6;
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+
+    color:#8b5cf6;
+}
+
+/* HERO SECTION */
+
+.hero{
+
+    text-align:center;
+    padding:140px 20px;
+}
+
+.hero h1{
+
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.hero p{
+
+    color:#cccccc;
+    font-size:20px;
+    line-height:1.7;
+}
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    background:#8b5cf6;
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+
+    background:#6d28d9;
+}
+
+/* ABOUT */
+
+.about{
+
+    padding:80px 10%;
+    text-align:center;
+}
+
+.about h2{
+
+    font-size:40px;
+    color:#8b5cf6;
+
+    margin-bottom:20px;
+}
+
+.about p{
+
+    max-width:800px;
+    margin:auto;
+
+    color:#cccccc;
+
+    line-height:1.8;
+}
+
+/* GALLERY */
+
+.gallery{
+
+    padding:80px 10%;
+}
+
+.gallery h2{
+
+    text-align:center;
+
+    color:#8b5cf6;
+
+    font-size:40px;
+
+    margin-bottom:40px;
+}
+
+.images{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.images img{
+
+    width:320px;
+
+    border-radius:15px;
+
+    transition:0.3s;
+}
+
+.images img:hover{
+
+    transform:scale(1.05);
+}
+
+/* MUSIC */
+
+.music{
+
+    padding:80px 10%;
+    text-align:center;
+}
+
+.music h2{
+
+    color:#8b5cf6;
+    font-size:40px;
+
+    margin-bottom:30px;
+}
+
+.song{
+
+    background:#111;
+
+    margin:15px auto;
+
+    padding:20px;
+
+    max-width:400px;
+
+    border-radius:10px;
+}
+
+/* SOCIALS */
+
+.socials{
+
+    padding:80px 20px;
+
+    text-align:center;
+}
+
+.socials h2{
+
+    color:#8b5cf6;
+
+    font-size:40px;
+
+    margin-bottom:30px;
+}
+
+.socials a{
+
+    display:inline-block;
+
+    margin:10px;
+
+    padding:15px 25px;
+
+    background:#111;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    transition:0.3s;
+}
+
+.socials a:hover{
+
+    background:#8b5cf6;
+}
+
+/* FOOTER */
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    background:#111;
+
+    margin-top:40px;
+
+    color:#999;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+
+        font-size:50px;
+    }
+
+    nav{
+
+        display:none;
+    }
+
+    .images img{
+
+        width:100%;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+TAZER BOUY
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Gallery</a>
+<a href="#">Music</a>
+<a href="#">Socials</a>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+ 
+<h1>
+Tazer Bouy
+</h1>
+
+<p>
+Official artist website.<br>
+Music • Lifestyle • Creativity
+</p>
+
+<a href="#" class="btn">
+Listen Now
+</a>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+<h2>
+About The Artist
+</h2>
+
+<p>
+Tazer Bouy is an upcoming artist bringing
+powerful energy, unique sounds and creative vibes
+through music and entertainment.
+This website showcases music, visuals,
+and connects fans directly to the artist.
+</p>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery">
+
+<h2>
+Studio Gallery
+</h2>
+
+<div class="images">
+
+<img src="pic1.jpg">
+
+<img src="pic2.jpg">
+
+<img src="pic3.jpg">
+
+<img src="pic4.jpg">
+
+</div>
+
+</section>
+
+<!-- MUSIC -->
+
+<section class="music">
+
+<h2>
+Popular Songs
+</h2>
+
+<div class="song">
+I'm only 19
+</div>
+
+<div class="song">
+Life after death
+</div>
+
+<div class="song">
+Ase le super
+</div>
+
+</section>
+
+<!-- SOCIALS -->
+
+<section class="socials">
+
+<h2>
+Follow Tazer Bouy
+</h2>
+
+<a href="https://www.instagram.com/tazer.bouy?igsh=MTE2NTd0Nm9qd3AxZQ==">
+Instagram
+</a>
+
+<a href="https://www.tiktok.com/@tazer_bouy?_r=1&_t=ZS-96NtwFCrj8q&fbclid=PAb21jcASN_dRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafXxve8SgdHuE5lBs3xeHLbQbYDcFYZ-6TVCwzLOAh0bWhq5u4FL7VCJdKCSg_aem_8SZVPTilp9qHryZmQy_DTA">
+TikTok
+</a>
+
+<a href="https://youtube.com/playlist?list=OLAK5uy_ltIdx9Gxp5Lkoj4nRj2Y8OA5CqdkfYEc4&si=bA0iR7HcDhsW91uw">
+YouTube
+</a>
+
+<a href="https://www.facebook.com/profile.php?id=61584416061193">
+Facebook
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Tazer Bouy Official Website
+
+</footer>
+
+</body>
+</html>
